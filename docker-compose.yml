@@ -3,13 +3,13 @@ version: "3"
 services:
 
   product-service:
-    build: /product-service
+    build: ./product-service
     container_name: product-service
     ports:
       - "5001:5001"
 
   order-service:
-    build: /order-service
+    build: ./order-service
     container_name: order-service
     ports:
       - "5002:5002"
